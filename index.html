@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>
+    Graduation Ceremony of Le Thu Quyen
+  </title>
+  <meta name="description" property="og:description"
+    content="Graduation Ceremony of Le Thu Quyen." />
+  <meta name="author" content="Le Thu Quyen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Icons -->
+  <link rel="icon" href="static/images/favicon.ico" />
+  <link rel="icon" type="image/png" href="static/images/32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="static/images/16x16.png" sizes="16x16" />
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/180x180.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Graduation Ceremony of Le Thu Quyen." />
+  <meta property="og:site_name" content="Graduation Ceremony" />
+  <meta property="og:url" content="https://quyenleethu.github.io/graduation-ceremony" />
+  <meta property="og:image" content="static/images/1200x630.png" />
+
+  <!-- Docs styles -->
+  <link rel="stylesheet" href="static/plyr/plyr.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Preload -->
+  <link rel="preload" as="font" crossorigin type="font/woff2"
+    href="https://cdn.plyr.io/static/fonts/gordita-medium.woff2" />
+  <link rel="preload" as="font" crossorigin type="font/woff2"
+    href="https://cdn.plyr.io/static/fonts/gordita-bold.woff2" />
+</head>
+
+<body>
+  <div class="grid">
+    <header>
+      <h1>Graduation Ceremony<span>2022</span></h1>
+      <p>Video này không có caption, video này là thanh xuân của tôi </p><br>
+      <p>Cảm ơn vì đã ra trường đúng hạn</p>
+    </header>
+    <main>
+      <div id="container">
+        <video controls playsinline data-poster="media/background.jpg" id="player">
+          <!-- Video files -->
+          <source src="media/graduation-ceremony_480p.mp4" type="video/mp4" size="480" />
+
+        </video>
+      </div>
+      <div>
+        <svg class="icon">
+          <title>HTML5</title>
+          <path
+            d="M14.738.326C14.548.118 14.28 0 14 0H2c-.28 0-.55.118-.738.326S.98.81 1.004 1.09l1 11c.03.317.208.603.48.767l5 3c.16.095.338.143.516.143s.356-.048.515-.143l5-3c.273-.164.452-.45.48-.767l1-11c.026-.28-.067-.557-.257-.764zM12 4H6v2h6v5.72l-4 1.334-4-1.333V9h2v1.28l2 .666 2-.667V8H4V2h8v2z">
+          </path>
+        </svg>
+        <a href="https://github.com/quyenleethu/graduation-ceremony/blob/main/media/graduation-ceremony_480p.mp4?raw=1" target="_blank">Lễ Tốt Nghiệp của Quyên
+        </a>
+        &copy; Le Thu Quyen
+      </div>
+    </main>
+  </div>
+
+  <aside>
+    <p>
+      made by <a href="https://github.com/AREA44" target="_blank">AREA44</a> & powered by <a href="https://plyr.io"
+        target="_blank">Plyr</a>
+    </p>
+  </aside>
+
+  <script src="static/plyr/plyr.js"></script>
+  <script>
+    const player = new Plyr("#player");
+  </script>
+</body>
+
+</html>
